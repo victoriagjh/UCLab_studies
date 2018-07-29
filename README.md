@@ -12,7 +12,7 @@ Second one is rtsp/rtmp streaming. This type doesn’t download data already. On
 
 Lastly Adaptive http streaming is combination of progressive method and rtmp/rtsp method. The server streams with a few seconds of video, and the user connects these fragments into a continuous stream.
 
-## 20180731_Key Tracking in Java 
+## 20180731_Typing Tracker in Java 
 This program shows the key what user pressed and time when the user pressed that key. In c++, there is getch() function. That is a function that moves the control forward as soon as a keyboard key is pressed, and also stores the character pressed.
 
 However, There's no getch() function equivalent in java. We have to create GUI and attach the Event Listener to them.
