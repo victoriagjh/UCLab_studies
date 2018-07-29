@@ -1,4 +1,4 @@
-# related-with-UClab
+# Related-with-UClab
 ## 20180725_Streaming Service 
 Streaming means flowing. Streaming Service is the method of sending and playing multimedia file such as a music or video.  Internet sends that data to system continuosly and playing in real time. Streaming just plays tha data without saving that file in hard disk, so the storage space of the hard disk is not affected. 
 
