@@ -19,3 +19,32 @@ However, There's no getch() function equivalent in java. We have to create GUI a
 
 I make a panel. When I execute the program, it shows a panel. Then i press the keyboard, console shows me what key i pressed. At the same time, it makes a file named 'outs'. There are keys and times that what kind of key user pressed and when is it in the file.
 
+## 20180801_Socket Programming in Java
+This program is Typing Tracker using client and Server. Client types the key and Server outputs the key and file.
+
+### TCP
+ TCP is one of the Socket programming, called Stream Communication Protocol. It is also known as a connection-oriented protocol because it can only be done when both sockets are connected.
+ Since this TCP protocol is a reliable protocol, it means that the data of the sender arrives at the receiver side sequentially, without loss of the data. In order to do this, the receiving side and the sending side must establish a connection in advance and exchange data in the order in which they are connected.
+ In connection-oriented mode, once connected, reliable data transmission is possible, in which the transmitted data is transmitted sequentially to the destination socket until the connection is disconnected.
+ It must execute the server first and server should waiting client’s access.
+
+
+### Establish a Socket Connection
+To connect to other machine we need a socket connection. A socket connection means the two machines have information about each other’s network loaction(IP address) and TCP port.
+Socket socket=new Socket(“127.0.0.1”,5000)
+“127.0.0.1” is the  IP address of Server. And 5000 is TCP port. Just a number representing which application to run on a server. For example, HTTP runs on port 80. Port number can be from 0 to 65535.
+
+### Server and Client
+Server is a computer that offers some service to lots of users. And Clients it the computer that ask service to server. 
+
+### Steps
+1. Server makes a ServerSocket
+2. ServerSocket’s accept function is waiting client.
+3. Client makes a socket.
+4. After client makes a socket, it access to server.
+5. Server’s accept method returns client’s socket.
+6. Obtain input,output stream  from a socket
+7. Communication from Inputstream and outputstream
+8. Call Socket’s close method.
+
+
