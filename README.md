@@ -47,4 +47,27 @@ Server is a computer that offers some service to lots of users. And Clients it t
 7. Communication from Inputstream and outputstream
 8. Call Socket’s close method.
 
+## 20180809_DATABASE using MySQL
+This program is Typing Tracker. In this program, Server get two data from client, when client pressed the key. One is key and Second is time. Server write that key and time to file. And It stored that data in database. I made database named "typing_tracker" and table named "typing_list" in it. We can know key, time and sequence.
+
+### Database
+Database is a gathering of oragnized data. It is a bundle of public data that can be stored and operated by integrated information of various application systems.
+
+### SQL : Structured Query Language
+
+A database query extracts data from a database and formats it in a readable form. A query must be written in the language the database requires—usually, that language is SQL.
+For example, when you want data from a database, you use a query to request the specific information you want. Perhaps you have an Employee table, and you want to track sales performance numbers. You might query your database for the employee who recorded the highest sales in a given period.
+
+A database has the potential to reveal complex trends and activities, but this power is only harnessed through the use of the query. A complex database consists of multiple tables storing a myriad of data. A query allows you to filter it into a single table so you can more easily analyze it. 
+Queries also can perform calculations on your data or automate data management tasks. You can also review updates to your data before committing them to the database.
+
+### Steps
+1. Create a Java Connection to our example MySQL database.
+2. Create a SQL INSERT statement, using the Java PreparedStatement syntax.
+3. Set the fields on our Java PreparedStatement object.
+4. Execute a Java PreparedStatement.
+5. Close our Java MYSQL database connection.
+6. Catch any SQL exceptions that may come up during the process.
+
+### Capture the program
 
