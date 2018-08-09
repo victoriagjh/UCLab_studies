@@ -71,3 +71,9 @@ Queries also can perform calculations on your data or automate data management t
 
 ### Capture the program
 
+<div>
+ <img src="https://user-images.githubusercontent.com/35221733/43883685-e602bbb4-9bee-11e8-8d09-cd43f45be5fc.PNG" width="90%"></img>
+ This is the table information.
+ <img src="https://user-images.githubusercontent.com/35221733/43883722-066d788a-9bef-11e8-9575-ff399af94075.PNG" width="90%"></img>
+ This is typing list that user pressed.
+ </div>
