@@ -78,6 +78,7 @@ Queries also can perform calculations on your data or automate data management t
  This is typing list that user pressed.
  </div>
  
+## 20180821_DATABASE using MySQL &  
 ### Socket
 Network socket is the end point of interprocess communication via computer networks. 
 Most of the computer-to-computer communication is based on Internet protocols, so most network sockets are Internet sockets. 
