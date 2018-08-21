@@ -77,3 +77,17 @@ Queries also can perform calculations on your data or automate data management t
  <img src="https://user-images.githubusercontent.com/35221733/43883722-066d788a-9bef-11e8-9575-ff399af94075.PNG" width="90%"></img>
  This is typing list that user pressed.
  </div>
+ 
+### Socket
+Network socket is the end point of interprocess communication via computer networks. 
+Most of the computer-to-computer communication is based on Internet protocols, so most network sockets are Internet sockets. 
+
+Socket is consisted by Internet protocol(TCP, UDP, raw IP), local IP address, local port, remote IP address and remote port.
+
+### TCP V.S. UDP
+
+In the TCP protocol, the client must request and accept a connection from the server. And to receive responses based on the results of every transmission of the data.
+
+UDP is a non-connection-based service. Unlike TCP, there is no guarantee of data drift to the destination. Data may be lost, duplicated, or reversed in order. When you arrive at your destination, you are guaranteed only for the amount of data. If data is lost, the data is not automatically retransmitted. Anyone can send data knowing only the IP and port number of the destination.
+Compared to TCP, it has a much simpler structure because it does not have to be in a connected state and does not need to receive a response depending on the transmission. So you can expect faster speeds even if you do not have stability.
+
