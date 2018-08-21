@@ -92,3 +92,10 @@ In the TCP protocol, the client must request and accept a connection from the se
 UDP is a non-connection-based service. Unlike TCP, there is no guarantee of data drift to the destination. Data may be lost, duplicated, or reversed in order. When you arrive at your destination, you are guaranteed only for the amount of data. If data is lost, the data is not automatically retransmitted. Anyone can send data knowing only the IP and port number of the destination.
 Compared to TCP, it has a much simpler structure because it does not have to be in a connected state and does not need to receive a response depending on the transmission. So you can expect faster speeds even if you do not have stability.
 
+<div>
+ <img src="https://user-images.githubusercontent.com/35221733/44386413-67fd5f80-a55d-11e8-9551-a6b6723630f6.PNG" width="50%"></img>
+ This is the table information.
+ <img src="https://user-images.githubusercontent.com/35221733/44386456-86635b00-a55d-11e8-95fe-a3153993b096.PNG" width="50%"></img>
+ This is typing list that user pressed.
+ </div>
+ 
