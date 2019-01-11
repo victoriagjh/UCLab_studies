@@ -94,8 +94,6 @@ Compared to TCP, it has a much simpler structure because it does not have to be 
 
 <div>
  <img src="https://user-images.githubusercontent.com/35221733/44386413-67fd5f80-a55d-11e8-9551-a6b6723630f6.PNG" width="50%"></img>
- This is the table information.
  <img src="https://user-images.githubusercontent.com/35221733/44386456-86635b00-a55d-11e8-95fe-a3153993b096.PNG" width="50%"></img>
- This is typing list that user pressed.
  </div>
  
